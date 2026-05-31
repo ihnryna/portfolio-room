@@ -1,0 +1,53 @@
+.room {
+    max-width: 100vw;
+    max-height: 100vh;
+    aspect-ratio: 216 / 100;
+    position: relative;
+
+    background: radial-gradient(circle at top, #2a003f, #05010a);
+    overflow: hidden;
+}
+
+.room-item {
+    position: absolute;
+    animation: glow 2s infinite alternate;
+    cursor: pointer;
+}
+
+.room-item:hover {
+    transform: scale(1.1) translateY(-2px);
+    filter: drop-shadow(0 0 10px #b026ff);
+}
+
+@keyframes glow {
+    from { filter: drop-shadow(0 0 5px #7a1cff); }
+    to { filter: drop-shadow(0 0 20px #b026ff); }
+}
+
+.notebook {
+    width: calc(1900% / 216);
+    height: calc(1100% /100);
+    left: calc(6200% /216);
+    top: calc(4800% /100);
+}
+
+.computer {
+    width: calc(3600% /216);
+    height: calc(3200% /100);
+    left: calc(1900% /216);
+    top: calc(2200% /100);
+}
+
+.cat {
+    width: calc(3200%/216);
+    height: calc(1800% /100);
+    left: calc(8700% /216);
+    top: calc(5000% /100);
+}
+
+.board {
+    width: calc(6400% /216);
+    height: calc(3600% /100);
+    left: calc(13700% /216);
+    top: calc(1800% /100);
+}

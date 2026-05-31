@@ -1,11 +1,8 @@
 import './App.css'
+import Room from "./components/Room.jsx";
 
 function App() {
 
-  return (
-    <div>
-      Portfolio coming soon...
-    </div>
-  )
+  return <Room/>
 }
 export default App;
