@@ -3,6 +3,9 @@ import Room from "./components/Room.jsx";
 
 function App() {
 
-  return <Room/>
+  return <>
+    <button className="pixel-button">Hello</button>
+    <Room/>
+    </>
 }
 export default App;
