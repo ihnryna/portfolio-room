@@ -25,7 +25,7 @@ export default function Room() {
 
             <RoomItem img={cat}
                       classname={"cat"}
-                      onClick={() => (window.location.href = "/cat")}
+                      onClick={() => window.open("https://pet-round-cat.irihskaa.workers.dev/", "_blank")}
             />
 
             <RoomItem img={computer}

@@ -1,16 +1,24 @@
-# React + Vite
+# Pixel Room Portfolio
+My interactive pixel-art portfolio built as a game-like room interface, where each object represents a separate project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🎨 All visual ***assets*** are original pixel-art illustrations ***hand-drawn by me***, including environment, UI elements, and all interactive objects.
 
-Currently, two official plugins are available:
+🔗 Available at: https://portfolio-room.irihskaa.workers.dev/
+<br/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Concept
+This portfolio is designed as a cozy pixel room.
+Each object inside the room is interactive and leads to a different project or experience:
 
-## React Compiler
+- 🐱 Cat → Tamagotchi pet game (https://github.com/ihnryna/pet-round-cat)
+- 📓 Notebook → Block-scheme maker (tbd)
+- 💻 Computer → Design-room minigame (tbd)
+- 📌 Board → Personal dashboard (tbd)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal is to make navigation feel like exploring a small digital world.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+- React (JavaScript)
+- CSS (custom styling, no UI frameworks)
+- Vite
+- Cloudflare Pages (deployment)
